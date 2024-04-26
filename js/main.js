@@ -35,6 +35,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     $('#buyNowBtn').on('click', popupOpen);
     $('#tryToBtn').on('click', popupOpen);
+    $('#tryToBtn2').on('click', popupOpen);
     $('.popup__close').on('click', () => {
         $('.popup').removeClass('popup_active');
         $('body').css('overflow', 'visible');
@@ -44,7 +45,17 @@ window.addEventListener("DOMContentLoaded", () => {
         $('.popup').addClass('popup_active');
         $('body').css('overflow', 'hidden');
     }
+    
+    $('#commentUs').on('click', popupOpen2);
+    $('.popup__close_2').on('click', () => {
+        $('.popup_2').removeClass('popup_active_2');
+        $('body').css('overflow', 'visible');
+    });
 
+    function popupOpen2() {
+        $('.popup_2').addClass('popup_active_2');
+        $('body').css('overflow', 'hidden');
+    }
     $("a[href*='#']").on("click", function(e){
         var anchor = $(this);
         $('html, body').stop().animate({
@@ -53,7 +64,4 @@ window.addEventListener("DOMContentLoaded", () => {
         e.preventDefault();
         return false;
       });
-    
-    
-    
 });

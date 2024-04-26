@@ -20,7 +20,7 @@
                         <img src="Icons/Logo/Untitledь.png" alt="Logo" class="logo__img">
                         <div class="logo_text">
                             Автосеріс<br>
-                            <span>Premium</span>
+                            <span>ZALYPA</span>
                         </div>
                     </div>
                 </a>
@@ -110,7 +110,7 @@
                     </div>
                 </div>
             </div>
-            <button class="useful__btn">Записатись</button>
+            <button class="useful__btn" id="tryToBtn2">Записатись</button>
         </div>
 
 
@@ -301,7 +301,7 @@
                         Тут ви можете побачити що наші клієнти думають про нас, а також якщо ви
                         вже були нашим клієнтом то самі і залишити свій відгук.
                     </div>
-                    <button class="comment__btn">Коментувати</button>
+                    <button class="comment__btn" id="commentUs">Коментувати</button>
                 </div>
                 <div>
                     <div class="comment__title">
@@ -482,22 +482,35 @@
             <div class="popup__form">
                 <form action="#" class="form">
                     <div class="form__wrap">
-                        <input type="text" name="firstName" class="form_inp" placeholder="First Name" required>
-                        <input type="text" name="lastName" class="form_inp" placeholder="Last Name" required>
+                        <input type="text" name="firstName" class="form_inp" placeholder="Ім'я" required>
+                        <input type="text" name="lastName" class="form_inp" placeholder="Прізвище" required>
                     </div>
                     <div class="form__wrap">
                         <input type="email" name="email" class="form_inp" placeholder="Email" required>
-                        <input type="tel" name="telephone" class="form_inp" placeholder="Phone" required>
+                        <input type="tel" name="telephone" class="form_inp" placeholder="Телефон" required>
                     </div>
-                    <textarea name="massage" class="form__massege" placeholder="Message"></textarea>
+                    <textarea name="massage" class="form__massege" placeholder="Повідомлення"></textarea>
                     <div class="form__sent">
-                        <label for="subscribe"><input type="checkbox" name="subscribe" class="form__subs">subscribe for
-                            news</label>
-                        <input type="submit" name="submit" class="form__btn" value="Sent">
+                        <label for="subscribe"><input type="checkbox" name="subscribe" class="form__subs">Згідний з обробкою данних</label>
+                        <input type="submit" name="submit" class="form__btn" value="Надіслати">
                     </div>
                 </form>
             </div>
             <i class="fa-solid fa-xmark popup__close"></i>
+        </div>
+    </div>
+    <div class="popup_2">
+        <div class="popup__wrap_2">
+            <div class="popup__form_2">
+                <form action="#" class="form">
+                    <textarea name="massage" class="form__massege" placeholder="Повідомлення"></textarea>
+                    <div class="form__sent">
+                        <label for="subscribe"><input type="checkbox" name="subscribe" class="form__subs">Згідний з обробкою данних</label>
+                        <input type="submit" name="submit" class="form__btn" value="Надіслати">
+                    </div>
+                </form>
+            </div>
+            <i class="fa-solid fa-xmark popup__close_2"></i>
         </div>
     </div>
     <script type="text/javascript" src="//code.jquery.com/jquery-3.4.0.min.js"></script>
