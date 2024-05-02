@@ -121,10 +121,10 @@ button:focus, div:focus, input:focus, textarea:focus{
     text-transform: uppercase;
 }
 .promo_descripthion{
-    color: aliceblue;
+    color: rgb(176, 176, 176);
     font-size: 18px;
     line-height: 35px;
-    opacity: 0.8;
+    font-weight: 700;
 }
 .promo__buttons{
     margin-top: 50px; 
@@ -148,15 +148,15 @@ button:focus, div:focus, input:focus, textarea:focus{
     color: rgb(42, 42, 49);
 }
 .button_2{
-    background-color: whitesmoke;
-    color: black;
+    background-color: rgb(67, 64, 64);
+    color: aliceblue;
     font-size: 20px;
     font-weight: 600;
     margin-left: 15px;
 }
 .button_2:hover{
-    background-color: black;
-    color: aliceblue;  
+    background-color: rgb(233, 226, 226);
+    color: rgb(42, 42, 49);  
 }
 .promo__video{
     position: relative;
@@ -635,6 +635,11 @@ button:focus, div:focus, input:focus, textarea:focus{
     opacity: 0.2;
     color: #ffffff;
     font-size: 20px;
+}
+.footer__links i:hover{
+    color: #ffffff;
+    opacity: 0.8;
+    transition: all 0.5s ease;
 }
 .popup{
     position: fixed;
