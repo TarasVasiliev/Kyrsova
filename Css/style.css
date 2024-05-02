@@ -818,7 +818,3 @@ button:focus, div:focus, input:focus, textarea:focus{
     right: 20px;
     cursor: pointer;
 }
-.registr_active {
-    display: flex;
-
-}
