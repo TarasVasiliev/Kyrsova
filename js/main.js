@@ -57,16 +57,7 @@ window.addEventListener("DOMContentLoaded", () => {
         $('body').css('overflow', 'hidden');
     }
 
-    $('#registrUser').on('click', popupOpen3);
-    $('.register_close').on('click', () => {
-        $('.registr').removeClass('registr_active');
-        $('body').css('overflow', 'visible');
-    });
-
-    function popupOpen3() {
-        $('.registr').addClass('registr_active');
-        $('body').css('overflow', 'hidden');
-    }
+    
 
     $("a[href*='#']").on("click", function (e) {
         var anchor = $(this);
